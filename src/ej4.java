@@ -16,8 +16,10 @@ public class ej4 {
             System.out.println("quieres seguir? 1 si 0 no");
             res=scan.nextInt();
         }
+        double suma=0;
         for (double e:array){
-            System.out.print(e+" ");
+            suma+=e;
         }
+        System.out.println(suma);
     }
 }
