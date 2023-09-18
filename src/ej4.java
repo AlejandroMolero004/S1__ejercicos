@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ej4 {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
-        ArrayList<Double>array=new ArrayList<Double>();
+        ArrayList<Double>array= new ArrayList<>();
         double num;
         int res=1;
 
